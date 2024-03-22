@@ -1,0 +1,21 @@
+Package: aspe2
+Title: An R package to process and visualise the river fish data in France / Un package R pour traiter et visualiser les données sur les poissons de rivière en France
+Version: 1.0
+Description: Provides additionnal tools to aspe package for ASPE database processing and includes functions to prepare datasets for estimates of population dynamics indicators. / Fournit des outils supplémentaires au package aspe pour le traitement de la base de données ASPE, comprend notamment des fonctions pour préparer les jeux de données pour les estimations des indicateurs de dynamique de population.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: R (>= 4.2.0)
+LazyData: TRUE
+Author: Emmanuelle Dortel[cre,aut] <emmanuelle.dortel@gmail.com>, Pascal Irz[ctb] <pascal.irz@ofb.gouv.fr>, Nicolas Poulet[ctb] <nicolas.poulet@ofb.gouv.fr>
+Maintainer: Emmanuelle Dortel <emmanuelle.dortel@gmail.com>
+Language: fr
+LazyDataCompression: xz
+Imports: dplyr, magrittr, GFE, lubridate, rlang, sf, stats, tidyr, tidyselect, utils
+Suggests: 
+    aspe,
+    knitr,
+    popdynmodel,
+    rmarkdown
+VignetteBuilder: knitr
