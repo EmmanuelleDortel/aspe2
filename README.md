@@ -22,7 +22,7 @@ library(devtools)
 devtools::install_github("manue6/aspe2")
 ```
 
-Le package peut également être installé à partir de l'archive .tar [*aspe2_1.0.tar.gz*](https://github.com/manue6/Indicateur_IDP) :
+Le package peut également être installé à partir de l'archive .tar [*aspe2_1.0.tar.gz*](https://github.com/manue6/Indicateurs_IDP) :
 
 ``` r
 install.packages("aspe2_1.0.tar.gz", repos = NULL)
