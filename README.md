@@ -42,7 +42,7 @@ The latest version of the *apse2* can be installed from Github using (requires p
 library(devtools)
 devtools::install_github("manue6/aspe2")
 ```
-The package can also be installed from the downloadable tar archive [*aspe2_1.0.tar.gz*](https://github.com/manue6/Indicateur_IDP):
+The package can also be installed from the downloadable tar archive [*aspe2_1.0.tar.gz*](https://github.com/manue6/Indicateurs_IDP):
 
 ``` r
 install.packages("aspe2_1.0.tar.gz", repos = NULL)
