@@ -12,5 +12,7 @@
 #' @rawNamespace import(tidyr, except = extract)
 #' @import tidyselect
 #' @import utils
+#' @importFrom grDevices png postscript x11 dev.off
+#' @importFrom graphics par
 ## usethis namespace: end
 NULL
