@@ -12,6 +12,7 @@ Les noms des fonctions commencent par des préfixes spécifique :
 \itemize{
 \item \code{def_} : production d'un nouveau dataframe
 \item \code{mef_} : mise en forme du dataframe d'entrée
+\item \code{plot_} : production de figure avec plot ou plot_sf
 }
 
 This package was developed to process river fish data from the ASPE database managed by the French Biodiversity Agency (OFB). It provides additionnal functions to aspe package for the ASPE database processing. In particular, it include useful functions for preparing datasets to estimate population dynamics indicators.
@@ -20,6 +21,7 @@ Function names start with specific prefixes:
 \itemize{
 \item \code{def_} : producing a new dataframe
 \item \code{mef_} : formatting the input dataframe
+\item \code{plot_} : producing figure with plot or plot_sf
 }
 }
 \references{
